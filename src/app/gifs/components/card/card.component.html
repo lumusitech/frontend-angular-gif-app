@@ -5,7 +5,11 @@
     class="card-image-top"
   /> -->
 
-  <shared-lazy-image class="text-light"></shared-lazy-image>
+  <shared-lazy-image
+    class="text-light"
+    [url]="gif.images.downsized_medium.url"
+    [alt]="gif.title || 'No name'"
+  ></shared-lazy-image>
 
   <div class="card-body text-white">
     <p class="card-text">{{ gif.title || 'No title' }}</p>
