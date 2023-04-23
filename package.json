@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "delete:docs": "del docs",
-    "copy:dist": "copyfiles dist/bases/* ./docs -f",
+    "copy:dist": "copyfiles dist/gifs-app/* ./docs -f",
     "build:href": "ng build --base-href ./",
     "deploy:github": "pnpm delete:docs && pnpm build:href && pnpm copy:dist",
     "watch": "ng build --watch --configuration development",
