@@ -45,6 +45,9 @@ devDependencies:
   '@angular/compiler-cli':
     specifier: ^15.2.0
     version: 15.2.0(@angular/compiler@15.2.0)(typescript@4.9.4)
+  '@schematics/angular':
+    specifier: ^15.2.6
+    version: 15.2.6
   '@types/jasmine':
     specifier: ~4.3.0
     version: 4.3.0
@@ -4488,7 +4491,7 @@ packages:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.3.0
+      tslib: 2.5.0
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.11
