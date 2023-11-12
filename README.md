@@ -1,27 +1,35 @@
-# GifsApp
+# GifsApp - Angular v15.2.6
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+1. After clone, run
 
-## Development server
+    ```bash
+    cd frontend-angular-gif-app
+    pnpm i
+    ```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Then, generate environments
 
-## Code scaffolding
+    ```bash
+    ng g environments
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Set this properties to environment file
 
-## Build
+    ```bash
+    export const environment = {
+        API_KEY: 'your_api_key',
+        API_URL: 'https://api.giphy.com/v1/gifs',
+    };
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    ```
 
-## Running unit tests
+4. Run dev server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```bash
+    ng serve -o
+    ```
 
-## Running end-to-end tests
+## Dependencies
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[git commit msg linter](https://www.npmjs.com/package/git-commit-msg-linter): A lightweight, independent, 0 configurations and joyful git commit message linter.
+👀 Watching your every git commit message INSTANTLY 🚀.
